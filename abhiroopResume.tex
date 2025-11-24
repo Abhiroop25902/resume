@@ -1,0 +1,254 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+
+% -----------------------------------------------------------------------------------------------------
+% https://www.themuse.com/advice/185-powerful-verbs-that-will-make-your-resume-awesome
+% -----------------------------------------------------------------------------------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\projectSubheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Abhiroop Mukherjee}} & Email: \href{mailto:abhiroop.m25902@gmail.com}{abhiroop.m25902@gmail.com}\\
+  \href{https://www.linkedin.com/in/abhiroop25902/}{LinkedIn: linkedin.com/in/abhiroop25902/} & Mobile: +91-8451909828 \\
+  \href{https://github.com/Abhiroop25902}{Github~~: github.com/Abhiroop25902} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\vspace{5pt}
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading{Indian Institute of Engineering Science and Technology, Shibpur}{Howrah, India}
+{Bachelor of Technology - Computer Science and Technology;  CGPA: 9.62}{July 2019 - June 2023}
+{\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks}}}
+
+\resumeSubheading{Kendriya Vidyalaya Koliwada}{Mumbai, India}
+{10 CGPA AISSE, 2017; 96.2\% AISSCE, 2019}{March 2007 - June 2019}
+\resumeSubHeadingListEnd
+
+
+%-----------Skills-----------------
+\vspace{5pt}
+\section{Skills Summary}
+\resumeSubHeadingListStart
+\resumeSubItem{Languages: }{~~~~~~Python, C++, Java, HTML, CSS, JavaScript, TypeScript}
+\resumeSubItem{Frameworks: }{~~~TensorFlow, OpenCV, Scikit, ExpressJS, SuiteScript}
+% 	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Kubernetes, Docker, GIT, PostgreSQL, MySQL, SQLite}
+\resumeSubItem{Platforms: }{~~~~~~~Windows, Windows Subsystem for Linux, Google Colab, NetSuite}
+% 	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+
+%-----------Experience-----------------
+\vspace{5pt}
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Developer}{July 2023 - Present}
+{\href{https://www.oracle.com/in/index.html}{Oracle India Private Limited, IDC}}{Hyderabad}
+\resumeItemListStart
+\resumeItem{}{
+  Using SuiteScript 2.0, SuiteQL, SuiteAnalytics, and UIF to implement \href{https://www.netsuite.com/portal/in/home.shtml}{NetSuite's} requirements.
+  }
+\resumeItemListEnd
+
+\resumeSubheading
+{Project Intern}{June 2022 - July 2022}
+{\href{https://www.oracle.com/in/index.html}{Oracle India Private Limited, IDC}}{Remote}
+\resumeItemListStart
+\resumeItem{}{Used SuiteScript 2.0, SuiteQL, and SuiteAnalytics to implement four functionalities in Requirement Analysis regarding "NFP Verticals" in the company's ERP Solution \href{https://www.netsuite.com/portal/in/home.shtml}{NetSuite}.}
+\resumeItemListEnd
+
+\resumeSubheading{Photo Editing and Deployment Intern}{Apr 2021 - June 2021}
+{\href{https://www.systemonsilicon.com/}{SystemOnSilicon Corporation, USA}}{Remote}
+\resumeItemListStart
+\resumeItem{}{Assisted in the design of ongoing ITX Global initiative website and the SystemOnSilicon website using\\Bootstrap, HTML and CSS}
+\resumeItem{}{Built 50+ vector graphic artworks using Illustrator and Canva}
+\resumeItem{}{Edited 20+ photos using Photoshop}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\projectSubheading{\href{https://github.com/Abhiroop25902/CoWin-Checker}{CoWin Checker}}{June 2021 - June 2021}
+\resumeItemListStart
+\resumeItem{}{Built a python script that periodically pings CoWin servers and looks for open vaccination slots according to given information like place and age group}
+\resumeItem{}{Upgraded the script by adding OS-level notifications to users if any open slot found}
+\resumeItem{}{Succeeded in finding a Vaccination Slot within two days of operation}
+\resumeItemListEnd
+
+% \vspace{-5pt}
+
+\resumeSubheading{\href{https://github.com/soft-coded/MPNewRepo}{Object Recognition for observing social distancing}}{Sept 2020 - Jan 2021}
+{Semester Project}{IIEST, Shibpur}
+\resumeItemListStart
+\resumeItem{}{Supervisors: \href{https://www.iiests.ac.in/IIEST/Faculty/cs-samit}{Prof. Samit Biswas}, Miss Arpita Dutta}
+\resumeItem{}{Deployed pre-trained YOLOv3 model to detect people in a video frame with 90\% accuracy}
+\resumeItem{}{Upgraded the deployed model to calculate distance between detected peoples to see if they are following social distancing}
+\resumeItem{}{Scaled this operation with a team of 5 members to a video to get an average of 8 fps on Google Colab Dedicated GPU}
+\resumeItemListEnd
+
+% \vspace{-5pt}
+
+% \resumeSubheading{Analysis of Time Complexity of Sorting Algorithms}{Feb 2021 - Apr 2021}
+% {Lab Assignment under Algorithm Lab [CS2771]}{IIEST, Shibpur}
+% \resumeItemListStart
+% \resumeItem{}{Supervisor: \href{https://www.iiests.ac.in/IIEST/Faculty/cs-abhik}{Prof. Abhik Mukherjee}}
+% \resumeItem{}{Generated uniformly and normally distributed data sets for inputs to the array to be sorted in C++}
+% \resumeItem{}{Developed Merge Sort, Quick Sort, Randomized Quick Sort, Median of Median based Quick Sort, and Bucket Sort with a team of 3 members}
+% \resumeItem{}{Analyzed number of swap operations and time taken for the sorting algorithms with varied array sizes for both data sets}
+% \resumeItemListEnd
+
+% \vspace{-5pt}
+
+%     \resumeSubheading
+% 		{DataCamp Inc.}{Remote}
+% 		{Instructor (Part-time, Contractual)}{Dec 2018 -  Present}
+% 		\resumeItemListStart
+%         \resumeItem{Project Course - Find Movie Similarity from Plot Summaries}
+%           {Created project based course using Unsupervised learning and natural language processing.}
+%         \resumeItem{Tutorial - Introduction to Reinforcement Learning}
+%           {Created tutorial for Q-learning RL algorithm and  concepts.}
+%         \resumeItem{Impact}{Course has been taken by 250+ students so far with 4.65 average rating.}
+% \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------Publications-----------------
+% \section{Publications}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Book: Deep Learning on Web (Web Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Django, Python, AWS, GCP, Azure (November '18)}
+% \vspace{2pt}
+% \resumeSubItem{Book: Deep Learning on Mobile Devices (Flutter App Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Flutter, Android, Firebase, TensorFlow, Python, Dart (December '18)}
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+%-----------Awards-----------------
+% \section{Honors and Awards}
+% \begin{description}[font=$\bullet$]
+%   \item {284th Rank, Amazon ML Challenge - August, 2021}
+%         \vspace{-5pt}
+%   \item {3176th Rank, Google Kickstart Round D - July, 2021}
+%         %       \vspace{-5pt}
+%         % \item {Runner's Up at Facebook Developers Circle Hackathon - August, 2017}
+% \end{description}
+% \vspace{-5pt}
+
+%-----------Positions Of Responsibility-----------------
+\section{Positions Of Responsibility}
+\resumeSubHeadingListStart
+
+\resumeSubheading{Flutter Facilitator}{Feb 2022 - Mar 2022}
+{\href{https://www.youtube.com/channel/UCkArLcgek88KQMbIu2kmygQ}{Google Developers Students Club, IIEST Shibpur}}{IIEST, Shibpur}
+\resumeItemListStart
+\resumeItem{}{As a Flutter Facilitator, I conducted five sessions to provide hands-on experience on app development with Flutter.}
+\resumeItem{}{During this period, I also managed a "doubt group" to facilitate all participants regarding doubts and career opportunities.}
+\resumeItemListEnd
+
+\resumeSubheading{Media Lead}{Aug 2021 - Jul 2022}
+{\href{https://www.youtube.com/channel/UCkArLcgek88KQMbIu2kmygQ}{Google Developers Students Club, IIEST Shibpur}}{IIEST, Shibpur}
+\resumeItemListStart
+\resumeItem{}{As a Media Lead, my primary objectives are to make sure all the sessions are conducted smoothly, with proper recording and uploading of sessions to YouTube.}
+\resumeItem{}{We have successfully conducted 40+ sessions smoothly and are available to watch on our YouTube channel.}
+\resumeItemListEnd
+
+\resumeSubheading{Video Production Manager}{Jan 2021 - Jul 2022}
+{\href{https://www.youtube.com/channel/UC6tDcfCbYl8RE7KuFwCVD6w}{CodeIIEST}}{IIEST, Shibpur}
+\resumeItemListStart
+\resumeItem{}{Developed an easy-to-follow methodology for Recording, Editing, and Uploading the CodeIIEST Sessions to YouTube}
+\resumeItemListEnd
+
+\resumeSubheading{Video Editor}{Sept 2020 - Jan 2021}
+{\href{https://www.youtube.com/channel/UCgZdehjLg__QLe7bbxxXEYw}{Academic Society of Computer Engineers}}{IIEST, Shibpur}
+\resumeItemListStart
+\resumeItem{}{Edited 12 ASCE Session Recordings of "The Tech Talk" using Premiere Pro, for YouTube Uploads}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
